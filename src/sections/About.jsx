@@ -10,10 +10,8 @@ function About() {
         <img src={MobileImg} alt="" />
       </picture>
       <div className="about-section__content">
-        <h3 className="about-section__heading ">
-          The leader in interactive VR
-        </h3>
-        <p className="about-section__text ">
+        <h3 className="about-section__heading">The leader in interactive VR</h3>
+        <p className="about-section__text">
           Founded in 2011, Loopstudios has been producing world-class virtual
           reality projects for some of the best companies around the globe. Our
           award-winning creations have transformed businesses through digital
