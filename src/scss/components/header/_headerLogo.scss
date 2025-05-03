@@ -1,0 +1,16 @@
+.header__logo {
+  max-width: 9rem;
+  z-index: 4;
+
+  @media (hover: hover) {
+    &:is(:hover, :focus, :focus-visible) {
+      outline: solid 0.13rem var(--primary-clr-one);
+      outline-offset: 0.25rem;
+      transition: var(--transition);
+    }
+  }
+}
+
+.header__logo {
+  max-width: 12rem;
+}
