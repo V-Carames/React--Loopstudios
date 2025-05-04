@@ -1,0 +1,16 @@
+.footer__copyright {
+  color: var(--primary-clr-one);
+  opacity: 0.5;
+  font-family: var(--ff-alata);
+  font-size: var(--fs-15);
+  font-weight: var(--fw-400);
+  line-height: 1.67; /* 25px */
+
+  text-align: center;
+}
+
+@media (min-width: 50rem) {
+  .footer__copyright {
+    text-align: end;
+  }
+}

@@ -1,0 +1,29 @@
+.footer {
+  background: var(--primary-clr-two);
+
+  &__content {
+    max-width: 75.75rem;
+    display: grid;
+    place-content: center;
+
+    padding: 3.5rem 3.19rem;
+  }
+
+  &__container {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 50rem) {
+  .footer__content {
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 2.81rem 3.19rem 2.69rem 3.19rem;
+    margin: 0 auto;
+  }
+
+  .footer__container {
+    justify-content: start;
+  }
+}

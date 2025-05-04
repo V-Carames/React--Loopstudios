@@ -1,0 +1,28 @@
+.footer__social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  margin-bottom: 1rem;
+}
+
+.footer__social-icon {
+  fill: var(--primary-clr-one);
+
+  @media (hover: hover) {
+    &:is(:hover, :focus, :focus-visible) {
+      fill: var(--primary-clr-three);
+      transition: var(--transition);
+    }
+  }
+}
+
+@media (min-width: 50rem) {
+  .footer__social-list {
+    justify-content: flex-end;
+    gap: 1rem;
+
+    margin-bottom: 1.5rem;
+  }
+}

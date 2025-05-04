@@ -1,3 +1,4 @@
+@use "base/base";
 @use "base/resets";
 @use "base/typography";
 @use "base/colors";
@@ -6,6 +7,12 @@
 @use "components/header/header";
 @use "components/header/headerLogo";
 @use "components/header/headerNav";
+@use "components/footer/footer";
+@use "components/footer/footerLogo";
+@use "components/footer/footerNav";
+@use "components/footer/footerSocialMedias";
+@use "components/footer/footerCopyright";
+
 @use "components/buttons";
 
 @use "sections/hero";
