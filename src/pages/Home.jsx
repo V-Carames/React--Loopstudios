@@ -1,3 +1,4 @@
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import About from "../sections/About";
 import Creations from "../sections/Creations";
@@ -10,6 +11,7 @@ function Home() {
         <About />
         <Creations />
       </main>
+      <Footer />
     </>
   );
 }
